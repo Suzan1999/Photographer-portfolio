@@ -1,0 +1,806 @@
+/* Start 1159px Down to 992px Responsive Section  */
+@media only screen and (max-width: 1199px){
+    .container{
+        width: 992px;
+        margin: 0 auto;
+    }
+    .header .navbar{
+        flex-direction: column;
+    }
+    .banner{
+        width: 100%;
+        height: 800px;
+        position: relative;
+    }
+    .banner .banner__heading{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+    .banner .banner__heading .heading__para{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .about{
+        padding: 80px 0;
+    }
+    .about .about__content .about__img{
+        margin-right: 60px;
+    }
+    .about .about__content .about__heading {
+        padding-top: 90px;
+    }
+   .service{
+        background-color: #f1f1f1;
+        padding: 80px 0;
+    }
+    .service .services__heading .heading__sub-title{
+        padding: 30px 0;
+    }
+    .service .services__content .services__item .services__list .item__para{
+        font-size: 14px;
+    }
+    .service .services__content{
+
+        gap: 15px;
+    } 
+    .experience{
+        padding: 70px 0;
+    }
+    .gallery{
+        padding: 70px 0px;
+    
+    }
+    .gallery .gallery__content .content__heading .heading__title{
+        padding: 20px 0;
+    }
+    .client{
+        padding: 60px 0;
+    }
+    .client .client__heading .heading__title{
+        padding: 20px 0;
+    }
+    .pricing{
+        padding: 70px 0;
+    }
+    .blog{
+        padding: 80px 0;
+    }
+    .blog .blog__content .blog__item .item__list{
+        width: 31%;
+        margin-left: 20px;
+    }
+    .contact .contact__content .content__heading .heading__title{
+        padding: 20px 0 40px;
+    }
+    .contact .contact__content .contact__form{
+        padding: 60px;
+    }
+    /* .footer{
+        padding: 60px 0;
+    }
+    .footer .footer__content .footer__description .footer__copyright{
+        font-size: 14px;
+    } */
+}
+/* End 1200px Down to 992px Responsive Section  */
+/* Start 991px Down to 768px Responsive Section  */
+@media only screen and (max-width: 991px){
+    .container{
+        width: 768px;
+        margin: 0 auto;
+    }
+    .header .navbar{
+        flex-direction: column;
+    }
+    .banner{
+        width: 100%;
+        height: 600px;
+        position: relative;
+    }
+    .banner .banner__heading{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+    .banner .banner__heading .heading__sub-title{
+        font-family:'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        padding: 20px 0;
+        color: white;
+    }
+    .banner .banner__heading .heading__para{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .banner .banner__heading .heading__button{
+        font-size: 16px;
+    }
+    .about{
+        padding: 60px 0;
+        
+    }
+    .about .about__content .about__img{
+        margin-right: 5px;
+    }
+    .about .about__content .about__heading {
+        padding-top: 70px;
+    }
+    .about .about__content .about__img img{
+        width: 80%;
+    }
+    .about .about__content .about__heading .about__title{
+        font-size: 15px;
+    }
+    .about .about__content .about__heading .about__heading1{
+        font-size: 22px;
+        padding: 10px 0;
+    }
+    .about .about__content .about__sub-title{
+        font-size: 16px;
+    }
+    .about .about__content .about__para{
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 10px 0;
+    }
+    .service{
+        background-color: #f1f1f1;
+        padding: 60px 0;
+    }
+    .service .services__heading .heading__sub-title{
+        padding: 20px 0;
+        font-size: 28px;
+    }
+    .service .services__content{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        gap: 25px;
+    } 
+    .experience{
+        padding: 40px 0;
+    }
+    .experience .experience__item .item__list{
+        font-size: 15px;
+    }
+
+    .gallery{
+        padding: 50px 0px;
+    
+    }
+    .gallery .gallery__content .content__heading .heading__title{
+        padding: 10px 0;
+        font-size: 26px;
+    }
+    .gallery .gallery__content .content__heading .heading__list{
+        padding: 20px 0;
+    }
+    .gallery .gallery__content .gallery__img{
+        grid-template-columns: 25%;
+        grid-template-rows: auto auto;
+    }
+    .client{
+        padding: 40px 0;
+    }
+    .client .client__heading .heading__title{
+        padding: 20px 0;
+    }
+    .client .client__heading .heading__title{
+        font-size: 28px;
+        padding: 20px 0;
+    }
+    .client .client__heading .heading__description{
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 5px 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .client .client__heading .heading__bottom-title{
+        font-size: 16px;
+    }
+
+    .pricing{
+        padding: 40px 0;
+    }
+    .pricing .pricing__centent .pricing__item .item__list{
+        width: 45%;
+        margin-left: 30px;
+    }
+    .pricing .pricing__centent .pricing__item .item__list:last-child{
+       margin-top: 50px;
+    }
+    .pricing .pricing__centent .pricing__item .item__list{
+        padding: 0 60px 40px;
+    }
+    .blog{
+        padding: 60px 0;
+    }
+    .blog .blog__content .content__heading .heading__title{
+        font-size: 28px;
+        padding: 30px 0;
+    }
+
+    .blog .blog__content .blog__item .item__list{
+        width: 47%;
+        margin-left: 20px; 
+    }
+    .blog .blog__content .blog__item .item__list:last-child{
+        margin-top: 20px; 
+    }
+    .contact{
+        padding: 40px 0;
+    }
+    .contact .contact__content .content__heading .heading__title{
+        padding: 20px 0 30px;
+        font-size: 28px;
+    }
+    .contact .contact__content .contact__list .list__item .item__img{
+        width: 25px;
+        height: 25px;
+    }
+    .contact .contact__content .contact__list .list__item .item__heading{
+
+        font-size: 24px;
+        padding: 15px 0;
+    }
+    .contact .contact__content .contact__list{
+        gap: 30px;   
+    }
+    .contact .contact__content .contact__list .list__item .item__number{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+   
+    .contact .contact__content .contact__form{
+        padding: 40px;
+    }
+    .contact .contact__content .contact__form form .form__heading{
+        font-size: 22px;
+    }
+    .contact .contact__content .contact__form form .input__text input{
+        width: 47%;
+    }
+
+    /* Start Partner Section  */
+    .koyta-partner .partnet__item .item__img{
+        width: 45%;
+        margin-left: 35px;   
+       
+    }
+    /* End Partner Section  */
+    .footer{
+        padding: 60px 0;
+    }
+
+    .footer .footer__content .footer__description{
+        margin: 0 100px;
+} 
+    .footer .footer__content .footer__social-link{
+        float: left;
+        width: 100%;
+        margin: 30px 0 0 100px;
+}
+
+}
+/* End 991px Down to 768px Responsive Section  */
+/* Start 767px Down to 600px Responsive Section  */
+@media only screen and (max-width:767px){
+    .container{
+        width: 600px;
+        margin: 0 auto;
+    }
+    .header .navbar{
+        flex-direction: column;
+    }
+
+    .header .navbar .menu .menu__list .list__item{
+        display: block;
+        padding: 10px 0;
+    }
+    .header .navbar .menu .menu__list .list__item a{
+        background-color: tomato;
+        padding: 10px;
+        display: block;
+        color: white;
+    }
+    .banner{
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+    .banner .banner__heading{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+    .banner .banner__heading .heading__title{
+        font-size: 15px;
+    }
+    .banner .banner__heading .heading__sub-title{
+        font-size: 24px;
+        padding: 20px 0;
+    }
+    .banner .banner__heading .heading__para{
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .banner .banner__heading .heading__button{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .about{
+        padding: 40px 0;   
+    }
+    .about .about__content .about__img{
+        width: 100%;
+    }
+    .about .about__content .about__img img{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .about .about__content .about__heading .about__title{
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    .about .about__content .about__heading .about__heading1{
+        font-size: 24px;
+        padding: 10px 0;
+    }
+    .about .about__content .about__sub-title{
+        font-size: 16px;
+    }
+    .about .about__content .about__para{
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 10px 0;
+    }
+    .service{
+        padding: 40px 0;
+    }
+    .service .services__heading .heading__sub-title{
+        padding: 20px 0;
+        font-size: 24px;
+    }
+    .service .services__content{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        gap: 10px;
+    } 
+    .service .services__content .services__item{
+        padding: 20px;
+    } 
+
+
+
+    
+    .experience{
+        padding: 40px 0;
+    }
+    .experience .experience__item .item__list{
+        font-size: 12px;
+    }
+    .experience .experience__item{
+        padding: 0;
+    }
+
+    .gallery{
+        padding: 50px 0px;
+    
+    }
+    .gallery .gallery__content .content__heading .heading__title{
+        padding: 10px 0;
+        font-size: 26px;
+    }
+    .gallery .gallery__content .content__heading .heading__list{
+        padding: 20px 0;
+    }
+    .gallery .gallery__content .gallery__img{
+        grid-template-columns: 25%;
+        grid-template-rows: auto auto;
+    }
+
+
+    .client{
+        padding: 40px 0;
+    }
+    .client .client__heading .heading__title{
+        font-size: 26px;
+        padding: 10px 0;
+    }
+    .client .client__heading .heading__description{
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 5px 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .client .client__heading .heading__bottom-title{
+        font-size: 14px;
+    }
+
+    .pricing{
+        padding: 40px 0;
+    }
+    .pricing .pricing__centent .pricing__heading .heading__title{
+        font-size: 28px;
+        padding: 20px 0 60px;
+    }
+    .pricing .pricing__centent .pricing__item .item__list{
+        width: 45%;
+        margin-left: 30px;
+    }
+    .pricing .pricing__centent .pricing__item .item__list:last-child{
+       margin-top: 50px;
+    }
+
+    .blog{
+        padding: 40px 0;
+    }
+    .blog .blog__content .content__heading .heading__title{
+        font-size: 25px;
+        padding: 30px 0;
+    }
+
+    .blog .blog__content .blog__item .item__list{
+        width: 46%;
+        margin-left: 10px; 
+    }
+    .blog .blog__content .blog__item .item__list:last-child{
+        margin-top: 20px; 
+    }
+    .blog .blog__content .blog__item .item__list .blog__heading{
+        padding: 0 20px 30px;
+    }
+    .contact{
+        padding: 40px 0;
+    }
+    .contact .contact__content .content__heading .heading__title{
+        padding: 20px 0 30px;
+        font-size: 24px;
+    }
+    .contact .contact__content .contact__list .list__item .item__img{
+        width: 20px;
+        height: 20px;
+    }
+    .contact .contact__content .contact__list .list__item .item__heading{
+
+        font-size: 18px;
+        padding: 15px 0;
+    }
+    .contact .contact__content .contact__list{
+        gap: 30px;   
+    }
+    .contact .contact__content .contact__list .list__item .item__number{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+   
+    .contact .contact__content .contact__form{
+        padding: 20px;
+    }
+    .contact .contact__content .contact__form form .form__heading{
+        font-size: 22px;
+    }
+    .contact .contact__content .contact__form form .input__text input{
+        width: 47%;
+    }
+    .contact .contact__content .contact__form form textarea{ 
+        width: 100%;
+        height: 80px;
+        
+    }
+    /* Start Partner Section  */
+    .koyta-partner{
+        padding: 60px 0;
+    }
+    .koyta-partner .partnet__item{
+        align-items: center; 
+    }
+    .koyta-partner .partnet__item .item__img{
+        float: left;
+        width: 84%;
+        margin-left: 35px;
+    }
+    .koyta-partner .partnet__item .item__img img{
+        width: 50%;
+        text-align: center;
+        margin-top: 20px;
+   
+    }
+    /* End Partner Section  */
+    .footer{
+        padding: 40px 0;
+    }
+    .footer .footer__content .footer__description{
+        width: 100%;
+        margin: 0;
+    } 
+.footer .footer__content .footer__menu{
+
+    width: 100%;
+    margin: 20px 0;
+
+    } 
+.footer .footer__content .footer__social-link{
+    width: 100%;
+    margin: 0 0 0 170px;
+    } 
+.footer .footer__content .footer__social-link .link__list li a{
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+    } 
+}
+/* End 767px Down to 600px Responsive Section  */
+/* Start 600px Down Responsive Section  */
+@media only screen and (max-width: 600px){
+    .container{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .header .navbar{
+        flex-direction: column;
+    }
+    .header .navbar .logo a img{
+        max-width: 70%;
+    }
+    .header .navbar .menu .menu__list .list__item{
+        display: block;
+        padding: 6px 0;
+    }
+    .header .navbar .menu .menu__list .list__item a{
+        background-color: tomato;
+        padding: 6px;
+        display: block;
+        color: white;
+    }
+    .banner{
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    .banner .banner__heading{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+    .banner .banner__heading .heading__title{
+        font-size: 12px;
+    }
+    .banner .banner__heading .heading__sub-title{
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    .banner .banner__heading .heading__para{
+        font-size: 10px;
+        line-height: 1.5;
+    }
+    .banner .banner__heading .heading__button{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .about{
+        padding: 20px 0;   
+    }
+    .about .about__content .about__img{
+        width: 100%;
+    }
+    .about .about__content .about__img img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about .about__content .about__heading .about__title{
+        font-size: 12px;
+        padding: 5px 0;
+    }
+    .about .about__content .about__heading .about__heading1{
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    .about .about__content .about__sub-title{
+        font-size: 14px;
+    }
+    .about .about__content .about__para{
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 7px 0;
+    }
+    .service{
+        padding: 20px 0;
+    }
+    .service .services__heading .heading__sub-title{
+        padding: 10px 0;
+        font-size: 20px;
+    }
+    .service .services__content{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto;
+        gap: 20px;
+    } 
+    .service .services__content .services__item{
+        padding: 10px 20px 80px;
+    } 
+    
+    .experience{
+        padding: 40px 0;
+    }
+    .experience .experience__item .item__list{
+        font-size: 9px;
+    }
+    .experience .experience__item{
+        padding: 0;
+    }
+
+    .gallery{
+        padding: 50px 0px;
+    
+    }
+    .gallery .gallery__content .content__heading .heading__title{
+        padding: 10px 0;
+        font-size: 26px;
+    }
+    .gallery .gallery__content .content__heading .heading__list{
+        padding: 20px 0;
+    }
+    .gallery .gallery__content .gallery__img{
+        grid-template-columns: 20%;
+        grid-template-rows: auto auto;
+    }
+
+
+    .client{
+        padding: 40px 0;
+    }
+    .client .client__heading .heading__title{
+        font-size: 22px;
+        padding: 10px 0;
+    }
+    .client .client__heading .heading__description{
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 5px 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .client .client__heading .heading__bottom-title{
+        font-size: 14px;
+    }
+
+
+
+    .pricing{
+        padding: 20px 0;
+    }
+    .pricing .pricing__centent .pricing__heading .heading__title{
+        font-size: 24px;
+        padding: 20px 0 60px;
+    }
+    .pricing .pricing__centent .pricing__item .item__list{
+        width: 100%;
+        padding: 50px 0;
+    }
+    .pricing .pricing__centent .pricing__item .item__list:first-child{
+        margin-bottom: 50px;
+    }
+    .pricing .pricing__centent .pricing__item .item__list:last-child{
+       margin-top: 50px;
+    }
+
+    .blog{
+        padding: 20px 0;
+    }
+    .blog .blog__content .content__heading .heading__title{
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .blog .blog__content .blog__item .item__list{
+        width: 100%;
+    }
+    .blog .blog__content .blog__item .item__list:first-child{
+        margin-bottom: 20px; 
+    }
+    .blog .blog__content .blog__item .item__list:last-child{
+        margin-top: 20px; 
+    }
+    .blog .blog__content .blog__item .item__list .blog__heading{
+        padding: 0 20px 30px;
+    }
+    .contact{
+        padding: 40px 0;
+    }
+    .contact .contact__content .content__heading .heading__title{
+        padding: 20px 0 30px;
+        font-size: 24px;
+    }
+
+    
+    .contact .contact__content .contact__list .list__item .item__img{
+        width: 20px;
+        height: 20px;
+    }
+    .contact .contact__content .contact__list .list__item .item__heading{
+
+        font-size: 18px;
+        padding: 15px 0;
+    }
+    .contact .contact__content .contact__list{
+        gap: 30px;   
+    }
+    .contact .contact__content .contact__list .list__item .item__number{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+   
+    .contact .contact__content .contact__form{
+        padding: 20px;
+    }
+    .contact .contact__content .contact__form form .form__heading{
+        font-size: 22px;
+    }
+    .contact .contact__content .contact__form form .input__text input{
+        width: 47%;
+    }
+    .contact .contact__content .contact__form form textarea{ 
+        width: 100%;
+        height: 80px;
+        
+    }
+    /* Start Partner Section  */
+    .koyta-partner{
+        padding: 60px 0;
+    }
+    .koyta-partner .partnet__item{
+        align-items: center; 
+    }
+    .koyta-partner .partnet__item .item__img{
+        float: left;
+        width: 84%;
+        margin-left: 35px;
+    }
+    .koyta-partner .partnet__item .item__img img{
+        width: 50%;
+        text-align: center;
+        margin-top: 20px;
+   
+    }
+    /* End Partner Section  */
+    .footer{
+        padding: 40px 0;
+    }
+    .footer .footer__content .footer__description{
+        width: 100%;
+        margin: 0;
+    } 
+.footer .footer__content .footer__menu{
+
+    width: 100%;
+    margin: 20px 0;
+
+    } 
+.footer .footer__content .footer__social-link{
+    width: 100%;
+    margin: 0 0 0 170px;
+    } 
+.footer .footer__content .footer__social-link .link__list li a{
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+    } 
+}
+/* End 600px Down Responsive Section  */
